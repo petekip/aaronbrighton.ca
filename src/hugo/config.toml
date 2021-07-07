@@ -88,10 +88,22 @@ disableKinds = ["sitemap", "taxonomy", "taxonomyTerm", "RSS"]
     title = "Projects"
     subtitle = "I'm currently working on"
 
+[params.testimonials]
+    #enable = true
+    title = "Consulting feedback"
+    subtitle = "What my clients are saying"
+
+[params.portfolio]
+    enable = true
+    title = "Portfolio"
+    subtitle = "Open-source contributions"
+    link_text = "View source"
+
 [params.publications]
     enable = true
     title = "Publications"
     subtitle = "I've written or contributed too"
+    link_text = "Read"
 
 [params.footer]
     enable = true

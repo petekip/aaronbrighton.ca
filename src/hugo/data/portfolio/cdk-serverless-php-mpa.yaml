@@ -1,0 +1,5 @@
+weight: 7
+title: "cdk-serverless-php-mpa"
+thumbnail: "complex-php-app.png"
+description: "Inspired in-part by [cdk-serverless-lamp](https://github.com/aws-samples/cdk-serverless-lamp) (which was limited to Laravel SPAs). This `cdk-serverless-php-mpa` repo contains a JSII construct library that allows you to deploy an AWS Serverless \"LAMP\" stack with AWS CDK that attempts support traditional multi-page applications.  See also [cdk-serverless-wordpress](https://github.com/aaronbrighton/cdk-serverless-wordpress) and [cdk-serverless-phpmyadmin](https://github.com/aaronbrighton/cdk-serverless-phpmyadmin)."
+link: "https://github.com/aaronbrighton/cdk-serverless-php-mpa"

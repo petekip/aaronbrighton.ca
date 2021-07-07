@@ -1,0 +1,5 @@
+weight: 6
+title: "wfh.vote"
+thumbnail: "wfh.vote.png"
+description: "Simple serverless voting service for employees to anonymously vote on their work from home preferences in the context of their company.  See [wfh.vote](https://wfh.vote/) for a live example."
+link: "https://github.com/aaronbrighton/wfh.vote"

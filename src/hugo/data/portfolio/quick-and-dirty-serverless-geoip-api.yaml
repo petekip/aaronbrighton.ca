@@ -1,0 +1,5 @@
+weight: 4
+title: "quick-and-dirty-serverless-geoip-api"
+thumbnail: "quick-and-dirty-serverless-geoip-api.png"
+description: "Simple serverless service (built with AWS CDK) for translating an IP address to GeoIP data using a locally downloaded MaxMind MMDB database."
+link: "https://github.com/aaronbrighton/quick-and-dirty-serverless-geoip-api"

@@ -1,0 +1,5 @@
+weight: 2
+title: "WRT Captive Portal"
+thumbnail: "WRTCaptivePortalDiagram.png"
+description: "When implemented correctly, this allows one to implement a wireless network with a captive portal that authenticates end-users against an LDAP backend before permitting network access. An alternative to 802.1x from a time when captive portals were more common."
+link: "https://github.com/aaronbrighton/WRTCaptivePortal"

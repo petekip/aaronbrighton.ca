@@ -1,0 +1,5 @@
+weight: 3
+title: "kPanel"
+thumbnail: "kpanel.png"
+description: "kPanel was intended to be a management application (much like cPanel), for allowing easy registration and management of shared hosting users and a way for them to manage their own resources (databases, files, etc...)."
+link: "https://github.com/aaronbrighton/kPanel"

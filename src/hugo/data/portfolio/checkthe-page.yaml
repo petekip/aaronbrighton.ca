@@ -1,0 +1,5 @@
+weight: 5
+title: "checkthe.page"
+thumbnail: "checkthe-page.png"
+description: "Simple serverless service for periodically checking a web page a pattern and send an SMS notification to a mobile number if found."
+link: "https://github.com/aaronbrighton/checkthe.page"
