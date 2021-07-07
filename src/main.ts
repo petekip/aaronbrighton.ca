@@ -90,6 +90,7 @@ export class PipelineStack extends Stack {
       oauthToken: SecretValue.secretsManager('github-token'),
       owner: 'aaronbrighton',
       repo: 'aaronbrighton.ca',
+      branch: 'main',
     });
 
     const synthAction = pipelines.SimpleSynthAction.standardNpmSynth({
