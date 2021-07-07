@@ -1,4 +1,4 @@
-weight: 2
+weight: 8
 title: "Installation & Configuration of ClamAV Antivirus on Ubuntu 18.04"
 thumbnail: "clamav-antivirus.png"
 description: "What I’ve learned during a recent situation where I had to install, setup, and configure ClamAV to run on Ubuntu 18.04 systems using real-time or as ClamAV calls it “on-access scanning”."
