@@ -22,6 +22,7 @@ disableKinds = ["sitemap", "taxonomy", "taxonomyTerm", "RSS"]
     linkedin = "aaronbrighton"
     medium = "aaronbrighton"
     github = "aaronbrighton"
+    calendly = "https://calendly.com/aaronbrighton/introductions"
 
 [params.nav]
     theme_navigation_color = "#202020"
