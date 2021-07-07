@@ -111,7 +111,7 @@ export class PipelineStack extends Stack {
 
 
 const app = new App();
-new PipelineStack(app, 'aaronbrighton-ca');
+new PipelineStack(app, 'aaronbrighton-ca-pipeline');
 
 
 app.synth();
