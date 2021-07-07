@@ -32,7 +32,7 @@ disableKinds = ["sitemap", "taxonomy", "taxonomyTerm", "RSS"]
     enable = true
     avatar = "aaron-brighton.jpg"
     subtitle = "Aaron Brighton"
-    subsubtitle = "Cloud Architect"
+    subsubtitle = "Cloud Architect (Advisor)"
     hero_right_heading = "Passionate about helping **development teams** find success building efficient, secure, and scalable **modern applications** in the **cloud**."
     hero_right = [
         "**Who am I?**",
