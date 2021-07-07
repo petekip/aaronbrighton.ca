@@ -1,15 +1,27 @@
-const { AwsCdkTypeScriptApp } = require('projen');
+const { AwsCdkTypeScriptApp, ProjectType } = require('projen');
 const project = new AwsCdkTypeScriptApp({
-  cdkVersion: '1.95.2',
+  cdkVersion: '1.107.0',
+  cdkVersionPinning: true,
   defaultReleaseBranch: 'main',
   name: 'aaronbrighton.ca',
-
-  // cdkDependencies: undefined,        /* Which AWS CDK modules (those that start with "@aws-cdk/") this app uses. */
-  // deps: [],                          /* Runtime dependencies of this module. */
-  // description: undefined,            /* The description is just a string that helps people understand the purpose of the package. */
-  // devDeps: [],                       /* Build dependencies for this module. */
-  // packageName: undefined,            /* The "name" in package.json. */
-  // projectType: ProjectType.UNKNOWN,  /* Which type of project this is (library/app). */
-  // release: undefined,                /* Add release management to this project. */
+  authorAddress: 'aaron@aaronbrighton.ca',
+  authorName: 'Aaron Brighton',
+  cdkDependencies: [
+    '@aws-cdk/core',
+    '@aws-cdk/aws-route53',
+    '@aws-cdk/aws-route53-targets',
+    '@aws-cdk/aws-certificatemanager',
+    '@aws-solutions-constructs/aws-cloudfront-s3',
+    '@aws-cdk/aws-s3-deployment',
+    '@aws-cdk/aws-codepipeline',
+    '@aws-cdk/aws-codepipeline-actions',
+    '@aws-cdk/pipelines',
+  ],
+  context: {
+    '@aws-cdk/core:newStyleStackSynthesis': true,
+  },
+  projectType: ProjectType.APP,
+  release: false,
 });
+
 project.synth();

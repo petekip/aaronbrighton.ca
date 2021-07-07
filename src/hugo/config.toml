@@ -1,0 +1,97 @@
+languageCode = "en-us"
+title = "Aaron Brighton"
+theme = "hugo-lodi-theme"
+disableKinds = ["sitemap", "taxonomy", "taxonomyTerm", "RSS"]
+
+[minify]
+  minifyOutput = true
+
+
+[params]
+    theme_color = "#333333"
+    theme_border_color = "#303030"
+    theme_primary_color = "#FF9900"
+    theme_secondary_color = "#FFc46d"
+    theme_text_color = "#ededed"
+    description = "Helping companies build secure, simpler, and more efficient software systems using the cloud."
+    description_photo = "aaron-brighton.jpg"
+    favicon = "favicon.ico"
+    logo = "aaron-brighton.jpg"
+    email = "aaron@aaronbrighton.ca"
+    twitter = "aaronbrighton"
+    linkedin = "aaronbrighton"
+    medium = "aaronbrighton"
+    github = "aaronbrighton"
+
+[params.nav]
+    theme_navigation_color = "#202020"
+    enable = true
+
+[params.hero]
+    enable = true
+    avatar = "aaron-brighton.jpg"
+    subtitle = "Aaron Brighton"
+    subsubtitle = "Cloud Architect"
+    hero_right_heading = "Passionate about helping **development teams** find success building efficient, secure, and scalable **modern applications** in the **cloud**."
+    hero_right = [
+        "**Who am I?**",
+        "Over the past [15 years](https://www.linkedin.com/in/aaronbrighton/) I've worked up-and-down the technology stack.  From [software development](https://github.com/aaronbrighton), to building-out and operating [datacenters](img/aaron-brighton-datacenter.jpg), to leading DevOps and IT [transformations](https://www.linkedin.com/in/aaronbrighton/#experience-section).",
+        "I'm purpose driven, and enjoy making a positive difference in any organization I have the pleasure to work with."
+    ]
+
+[[params.cert]]
+    title = "Certified Information Systems Security Professional"
+    link = "https://www.isc2.org/Certifications/CISSP"
+    img = "cissp.png"
+    alt = "CISSP"
+
+[[params.cert]]
+    title = "AWS Certified Solutions Architect - Professional"
+    link = "https://aws.amazon.com/certification/certified-solutions-architect-professional/"
+    img = "aws-sap.png"
+    alt = "AWS-SAP"
+
+[[params.cert]]
+    title = "AWS Certified Security - Specialty"
+    link = "https://aws.amazon.com/certification/certified-security-specialty/"
+    img = "aws-scs.png"
+    alt = "AWS-SCS"
+
+[[params.cert_expired]]
+    title = "Cisco Certified Network Associate Security"
+    link = "https://www.cisco.com/c/en/us/training-events/training-certifications/certifications/associate/ccna-security.html"
+    img = "ccnas.png"
+    alt = "CCNAS"
+    style = [
+        "background-color:#FFF",
+        "border-radius:10%"
+    ]
+
+[[params.cert_expired]]
+    title = "Microsoft Certified Solutions Associate"
+    link = "https://www.microsoft.com/en-us/learning/mcsa-certification.aspx"
+    img = "mcsa.png"
+    alt = "MCSA"
+
+[[params.cert_expired]]
+    title = "Red Hat Certified System Administrator"
+    link = "https://www.redhat.com/en/services/certification/rhcsa"
+    img = "rhcsa.png"
+    alt = "RHCSA"
+    style = [
+        "background-color:#FFF",
+        "border-radius:10%"
+    ]
+
+[params.projects]
+    enable = true
+    title = "Projects"
+    subtitle = "I'm currently working on"
+
+[params.publications]
+    enable = true
+    title = "Publications"
+    subtitle = "I've written or contributed too"
+
+[params.footer]
+    enable = true
