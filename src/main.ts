@@ -93,7 +93,7 @@ export class PipelineStack extends Stack {
       branch: 'main',
     });
 
-    const synthAction = pipelines.SimpleSynthAction.standardNpmSynth({
+    const synthAction = pipelines.SimpleSynthAction.standardYarnSynth({
       sourceArtifact,
       cloudAssemblyArtifact,
       buildCommand: 'yarn build && yarn test',
