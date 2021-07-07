@@ -14,8 +14,8 @@ export class AaronBrightonDotCaStack extends Stack {
     super(scope, id, props);
 
     const domains = [
-      'new.aaronbrighton.ca',
-      'www.new.aaronbrighton.ca',
+      'aaronbrighton.ca',
+      'www.aaronbrighton.ca',
     ];
 
     const publicZone = route53.HostedZone.fromHostedZoneAttributes(this, 'route53-zone', {
