@@ -69,11 +69,11 @@ export class AaronBrightonDotCaStack extends Stack {
   }
 }
 
-class AaronBrightonDotCaStage extends Stage {
+class DeployStage extends Stage {
   constructor(scope: Construct, id: string, props?: StageProps) {
     super(scope, id, props);
 
-    new AaronBrightonDotCaStack(this, 'aaronbrighton-ca-stack');
+    new AaronBrightonDotCaStack(this, 'aaronbrighton-ca');
   }
 }
 
@@ -99,19 +99,19 @@ export class PipelineStack extends Stack {
       buildCommand: 'yarn build && yarn test',
     });
 
-    const pipeline = new pipelines.CdkPipeline(this, 'Pipeline', {
+    const pipeline = new pipelines.CdkPipeline(this, 'aaronbrighton-ca-pipeline', {
       cloudAssemblyArtifact,
       sourceAction,
       synthAction,
     });
 
-    pipeline.addApplicationStage(new AaronBrightonDotCaStage(this, 'prod'));
+    pipeline.addApplicationStage(new DeployStage(this, 'prod'));
   }
 }
 
 
 const app = new App();
-new PipelineStack(app, 'PipelineStack');
+new PipelineStack(app, 'aaronbrighton-ca');
 
 
 app.synth();
