@@ -53,10 +53,16 @@ disableKinds = ["sitemap", "taxonomy", "taxonomyTerm", "RSS"]
     alt = "AWS-SAP"
 
 [[params.cert]]
-    title = "AWS Certified Security - Specialty"
-    link = "https://aws.amazon.com/certification/certified-security-specialty/"
-    img = "aws-scs.png"
-    alt = "AWS-SCS"
+    title = "AWS Certified DevOps Engineer - Professional"
+    link = "https://aws.amazon.com/certification/certified-devops-engineer-professional/"
+    img = "aws-dop.png"
+    alt = "AWS-DOP"
+
+#[[params.cert]]
+#    title = "AWS Certified Security - Specialty"
+#    link = "https://aws.amazon.com/certification/certified-security-specialty/"
+#    img = "aws-scs.png"
+#    alt = "AWS-SCS"
 
 [[params.cert_expired]]
     title = "Cisco Certified Network Associate Security"
