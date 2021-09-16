@@ -1,0 +1,5 @@
+weight: 10
+title: "cdk-serverless-chatime-ordering-helper"
+thumbnail: "cdk-serverless-chatime-ordering-helper-diagram.png"
+description: "When the pandemic hit one of the biggest bubble tea franchises in Canada went to purely online-ordering. Stores were so overwhelmed they regularly disabled online ordering for periods of time. This app made it possible for us to survive when it seemed impossible to order."
+link: "https://github.com/aaronbrighton/cdk-serverless-chatime-ordering-helper"

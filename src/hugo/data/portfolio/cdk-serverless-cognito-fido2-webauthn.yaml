@@ -1,0 +1,5 @@
+weight: 9
+title: "cdk-serverless-cognito-fido2-webauthn"
+thumbnail: "cdk-serverless-cognito-fido2-webauthn-diagram.png"
+description: "Using SimpleWebAuthn and Amazon Cognito's custom authentication flow support to implement a proof-of-concept serverless FIDO \"Server\" supporting a passwordless web app.  See [here](https://delzs89prk9ue.cloudfront.net/) for a live demo."
+link: "https://github.com/lockdrop/cdk-serverless-cognito-fido2-webauthn"
