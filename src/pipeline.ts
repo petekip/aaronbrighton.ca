@@ -9,7 +9,7 @@ class AaronBrightonCaPipelineStack extends Stack {
     const pipeline = new CodePipeline(this, 'Pipeline', {
       synth: new ShellStep('Synth', {
         input: CodePipelineSource.connection('aaronbrighton/aaronbrighton.ca', 'main', {
-          connectionArn: 'arn:aws:codestar-connections:us-east-1:518127035527:connection/03591007-b58e-46a6-ad43-67f98a485812', // Created using the AWS console
+          connectionArn: 'arn:aws:codestar-connections:us-east-1:518127035527:connection/e9696495-7140-4549-97f3-6c95bc68dd8b', // Created using the AWS console
         }),
         commands: [
           'yarn install',
