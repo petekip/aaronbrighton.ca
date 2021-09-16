@@ -1,6 +1,6 @@
 const { AwsCdkTypeScriptApp, ProjectType } = require('projen');
 const project = new AwsCdkTypeScriptApp({
-  cdkVersion: '1.107.0',
+  cdkVersion: '1.120.0',
   cdkVersionPinning: true,
   defaultReleaseBranch: 'main',
   name: 'aaronbrighton.ca',

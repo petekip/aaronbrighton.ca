@@ -19,7 +19,7 @@
     },
     {
       "name": "aws-cdk",
-      "version": "1.107.0",
+      "version": "1.120.0",
       "type": "build"
     },
     {
@@ -76,52 +76,52 @@
     },
     {
       "name": "@aws-cdk/assert",
-      "version": "1.107.0",
+      "version": "1.120.0",
       "type": "runtime"
     },
     {
       "name": "@aws-cdk/aws-certificatemanager",
-      "version": "1.107.0",
+      "version": "1.120.0",
       "type": "runtime"
     },
     {
       "name": "@aws-cdk/aws-codepipeline-actions",
-      "version": "1.107.0",
+      "version": "1.120.0",
       "type": "runtime"
     },
     {
       "name": "@aws-cdk/aws-codepipeline",
-      "version": "1.107.0",
+      "version": "1.120.0",
       "type": "runtime"
     },
     {
       "name": "@aws-cdk/aws-route53-targets",
-      "version": "1.107.0",
+      "version": "1.120.0",
       "type": "runtime"
     },
     {
       "name": "@aws-cdk/aws-route53",
-      "version": "1.107.0",
+      "version": "1.120.0",
       "type": "runtime"
     },
     {
       "name": "@aws-cdk/aws-s3-deployment",
-      "version": "1.107.0",
+      "version": "1.120.0",
       "type": "runtime"
     },
     {
       "name": "@aws-cdk/core",
-      "version": "1.107.0",
+      "version": "1.120.0",
       "type": "runtime"
     },
     {
       "name": "@aws-cdk/pipelines",
-      "version": "1.107.0",
+      "version": "1.120.0",
       "type": "runtime"
     },
     {
       "name": "@aws-solutions-constructs/aws-cloudfront-s3",
-      "version": "1.107.0",
+      "version": "1.120.0",
       "type": "runtime"
     }
   ],
