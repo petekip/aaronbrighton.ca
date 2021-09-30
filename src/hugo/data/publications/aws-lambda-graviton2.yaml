@@ -1,0 +1,5 @@
+weight: 12
+title: "AWS Lambda now supports arm64 (Graviton2), a win for our planet!"
+thumbnail: "graviton2-cover.png"
+description: "One area that’s always fascinated me about AWS is how they use pricing to drive positive action from their customers.  One advantage we don’t often hear about when it comes to cloud workloads is the environmental impact."
+link: "https://aaronbrighton.medium.com/aws-lambda-now-supports-arm64-graviton2-a-win-for-our-planet-b8d4b86a8427"
