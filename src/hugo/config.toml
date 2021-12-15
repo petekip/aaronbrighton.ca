@@ -21,6 +21,7 @@ disableKinds = ["sitemap", "taxonomy", "taxonomyTerm", "RSS"]
     twitter = "aaronbrighton"
     linkedin = "aaronbrighton"
     medium = "aaronbrighton"
+    instagram = "aaronbrightonig"
     github = "aaronbrighton"
     calendly = "https://calendly.com/aaronbrighton/introductions"
 
@@ -104,6 +105,12 @@ disableKinds = ["sitemap", "taxonomy", "taxonomyTerm", "RSS"]
     enable = true
     title = "Portfolio"
     subtitle = "Open-source contributions"
+    link_text = "View source"
+
+[params.drones]
+    enable = true
+    title = "Drone Adventures"
+    subtitle = "Off topic, please enjoy!"
     link_text = "View source"
 
 [params.publications]
