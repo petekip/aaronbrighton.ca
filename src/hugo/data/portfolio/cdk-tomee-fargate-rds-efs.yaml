@@ -1,0 +1,5 @@
+weight: 11
+title: "cdk-tomee-fargate-rds-efs"
+thumbnail: "cdk-tomee-fargate-rds-efs.png"
+description: "A CDK App POC that deploys resources needed for a traditional Java Application in AWS using CloudFront, WAF, Fargate, RDS and EFS. "
+link: "https://github.com/aaronbrighton/cdk-tomee-fargate-rds-efs"

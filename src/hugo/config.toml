@@ -41,55 +41,61 @@ disableKinds = ["sitemap", "taxonomy", "taxonomyTerm", "RSS"]
         "I'm purpose driven, and enjoy making a positive difference in any organization I have the pleasure to work with."
     ]
 
-[[params.cert]]
+[[params.cert_1_3]]
     title = "Certified Information Systems Security Professional"
     link = "https://www.isc2.org/Certifications/CISSP"
     img = "cissp.png"
     alt = "CISSP"
 
-[[params.cert]]
+[[params.cert_1_3]]
     title = "AWS Certified Solutions Architect - Professional"
     link = "https://aws.amazon.com/certification/certified-solutions-architect-professional/"
     img = "aws-sap.png"
     alt = "AWS-SAP"
 
-[[params.cert]]
+[[params.cert_1_3]]
     title = "AWS Certified DevOps Engineer - Professional"
     link = "https://aws.amazon.com/certification/certified-devops-engineer-professional/"
     img = "aws-dop.png"
     alt = "AWS-DOP"
 
-#[[params.cert]]
-#    title = "AWS Certified Security - Specialty"
-#    link = "https://aws.amazon.com/certification/certified-security-specialty/"
-#    img = "aws-scs.png"
-#    alt = "AWS-SCS"
+[[params.cert_4_6]]
+    title = "AWS Certified Security - Specialty"
+    link = "https://aws.amazon.com/certification/certified-security-specialty/"
+    img = "aws-scs.png"
+    alt = "AWS-SCS"
 
-[[params.cert_expired]]
-    title = "Cisco Certified Network Associate Security"
-    link = "https://www.cisco.com/c/en/us/training-events/training-certifications/certifications/associate/ccna-security.html"
-    img = "ccnas.png"
-    alt = "CCNAS"
-    style = [
-        "background-color:#FFF",
-        "border-radius:10%"
-    ]
-
-[[params.cert_expired]]
+[[params.cert_4_6]]
     title = "Microsoft Certified Solutions Associate"
     link = "https://www.microsoft.com/en-us/learning/mcsa-certification.aspx"
     img = "mcsa.png"
     alt = "MCSA"
 
-[[params.cert_expired]]
-    title = "Red Hat Certified System Administrator"
-    link = "https://www.redhat.com/en/services/certification/rhcsa"
-    img = "rhcsa.png"
-    alt = "RHCSA"
-    style = [
-        "background-color:#FFF",
-        "border-radius:10%"
-    ]
+[[params.cert_4_6]]
+    title = "Microsoft Certified: Azure Fundamentals"
+    link = "https://docs.microsoft.com/en-us/learn/certifications/azure-fundamentals/"
+    img = "mcaf.png"
+    alt = "MCAF"
+
+#[[params.cert_expired]]
+#    title = "Cisco Certified Network Associate Security"
+#    link = "https://www.cisco.com/c/en/us/training-events/training-certifications/certifications/associate/ccna-security.html"
+#    img = "ccnas.png"
+#    alt = "CCNAS"
+#    style = [
+#        "background-color:#FFF",
+#        "border-radius:10%"
+#    ]
+
+#[[params.cert_expired]]
+#    title = "Red Hat Certified System Administrator"
+#    link = "https://www.redhat.com/en/services/certification/rhcsa"
+#    img = "rhcsa.png"
+#    alt = "RHCSA"
+#    style = [
+#        "background-color:#FFF",
+#        "border-radius:10%"
+#    ]
 
 [params.projects]
     enable = true

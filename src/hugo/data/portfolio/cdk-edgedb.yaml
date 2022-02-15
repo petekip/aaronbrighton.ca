@@ -1,0 +1,5 @@
+weight: 13
+title: "cdk-edgedb"
+thumbnail: "cdk-edgedb.png"
+description: "Construct to make it simpler and faster to build EdgeDB backed applications on AWS with high availability in-mind using Aurora PostgreSQL and Fargate."
+link: "https://github.com/aaronbrighton/cdk-edgedb"

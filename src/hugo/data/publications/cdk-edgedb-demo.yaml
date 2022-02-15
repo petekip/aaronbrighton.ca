@@ -1,0 +1,5 @@
+weight: 14
+title: "Start building EdgeDB backed applications quickly using cdk-edgedb"
+thumbnail: "cdk-edgedb-demo.png"
+description: "EdgeDB just launched last week and I had some time to build a CDK construct around it to make it easier to deploy and integrate into AWS applications, check it out!"
+link: "https://aaronbrighton.medium.com/start-building-edgedb-backed-applications-quickly-using-cdk-edgedb-919c95da6575"
